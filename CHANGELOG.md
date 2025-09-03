@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Renamed `ecc_key_origin_t` to `lt_ecc_key_origin_t`.
+- Renamed `bank_id_t` to `lt_bank_id_t`.
 
 ### Added
 - CMake option for setting logging verbosity level: `LT_LOG_LVL`.
