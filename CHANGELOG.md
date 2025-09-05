@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Changed
+- Renamed `LIBT_DEBUG` to `LT_REDUNDANT_ARG_CHECK`, as it is used only for the redundant argument checks.
 
 ### Added
 - CMake option for setting logging verbosity level: `LT_LOG_LVL`.
