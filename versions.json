@@ -3,12 +3,5 @@
     "version": "test-build",
     "title": "test-build",
     "aliases": []
-  },
-  {
-    "version": "master",
-    "title": "master",
-    "aliases": [
-      "latest"
-    ]
   }
 ]
