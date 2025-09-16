@@ -1178,10 +1178,12 @@
 <div class="highlight"><pre><span></span><code>clang-format<span class="w"> </span>-i<span class="w"> </span>&lt;path_to_the_file_to_format&gt;
 </code></pre></div></li>
 <li>If you are using <a href="https://code.visualstudio.com/">VSCode</a> and the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools"><code>cpptools</code></a> extension, you can create <code>.vscode/settings.json</code> with the following contents (if it does not already exist):
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;C_Cpp.formatting&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;clangFormat&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;editor.formatOnSave&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"> </span><span class="c1">// Add this bracket only if your settings.json file is empty</span>
+<span class="w">    </span><span class="nt">&quot;[c]&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;editor.defaultFormatter&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ms-vscode.cpptools&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nt">&quot;editor.formatOnSave&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span><span class="w"> </span><span class="c1">// Add this bracket only if your settings.json file is empty</span>
 </code></pre></div>
 This will format the file on each save.</li>
 <li>There is also the <a href="https://clang.llvm.org/docs/ClangFormat.html#git-integration"><code>git-clang-format</code></a> tool, which integrates <code>clang-format</code> with <code>git</code>, but we have not used that yet.</li>

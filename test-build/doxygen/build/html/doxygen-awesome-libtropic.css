@@ -95,9 +95,8 @@ dl.section dd, dl.bug dd, dl.deprecated dd {
     }
 }
 
-/* style for re-injected version */
-#projectversion {
-    color: var(--side-nav-foreground);
-    padding-top: 25px;
-    text-align: center;
+#projectnumber {
+    font-family: inherit;
+    font-size: 80%;
+    color: white;
 }
