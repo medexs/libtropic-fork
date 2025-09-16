@@ -63,6 +63,7 @@ var libtropic__common_8h =
     [ "L3_ID_SIZE", "libtropic__common_8h.html#a36976ab619ab20ee2a9a80e18c4ed5d6", null ],
     [ "L3_TAG_SIZE", "libtropic__common_8h.html#a07f31b3f0550069b9d1216ac97c73a9f", null ],
     [ "L3_IV_SIZE", "libtropic__common_8h.html#a84570d62206a44833ad5fbf9e9624aa6", null ],
+    [ "AHOJ", "libtropic__common_8h.html#a76d8f97fb0c44d7e1f05534aa25c293a", null ],
     [ "L3_RES_SIZE_SIZE", "libtropic__common_8h.html#a34f9e17cf319e724ecb718e155546366", null ],
     [ "L3_CMD_SIZE_SIZE", "libtropic__common_8h.html#a7fc1621d83981ec016fd6a2f5a37def0", null ],
     [ "L3_CMD_ID_SIZE", "libtropic__common_8h.html#ac499bf9d4a952ebab8a204fee6496b51", null ],

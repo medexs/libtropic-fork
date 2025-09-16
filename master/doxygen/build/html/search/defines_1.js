@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['get_5flog_5fmax_5fmsg_5flen_0',['GET_LOG_MAX_MSG_LEN',['../libtropic__common_8h.html#a40a1f424804419456310ec34e50bc09e',1,'libtropic_common.h']]]
+  ['chip_5fpkg_5fbare_5fsilicon_5fid_0',['CHIP_PKG_BARE_SILICON_ID',['../libtropic__common_8h.html#a29d581233d44c7971cef08fc15b41e9f',1,'libtropic_common.h']]],
+  ['chip_5fpkg_5fqfn32_5fid_1',['CHIP_PKG_QFN32_ID',['../libtropic__common_8h.html#adeaf118bc702953ee442adc596757613',1,'libtropic_common.h']]]
 ];
