@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "version": "test-build",
+    "title": "test-build",
+    "aliases": []
+  }
+]
