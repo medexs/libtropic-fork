@@ -1,5 +1,0 @@
-mkdocs
-mkdocs-material
-mike
-markdown-callouts
-pymdown-extensions
