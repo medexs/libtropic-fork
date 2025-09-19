@@ -2,13 +2,13 @@
   {
     "version": "test-build",
     "title": "test-build",
-    "aliases": []
+    "aliases": [
+      "latest"
+    ]
   },
   {
     "version": "master",
     "title": "master",
-    "aliases": [
-      "latest"
-    ]
+    "aliases": []
   }
 ]
