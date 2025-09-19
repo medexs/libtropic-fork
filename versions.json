@@ -1,10 +1,5 @@
 [
   {
-    "version": "test-cache",
-    "title": "test-cache",
-    "aliases": []
-  },
-  {
     "version": "test-build",
     "title": "test-build",
     "aliases": [
