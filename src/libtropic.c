@@ -15,6 +15,8 @@
 #include <string.h>
 
 #include "libtropic_common.h"
+#include "libtropic_l2.h"
+#include "libtropic_l3.h"
 #include "libtropic_logging.h"
 #include "libtropic_macros.h"
 #include "libtropic_port.h"
@@ -25,9 +27,7 @@
 #include "lt_hkdf.h"
 #include "lt_l1.h"
 #include "lt_l1_port_wrap.h"
-#include "lt_l2.h"
 #include "lt_l2_api_structs.h"
-#include "lt_l3.h"
 #include "lt_l3_api_structs.h"
 #include "lt_l3_process.h"
 #include "lt_random.h"
@@ -973,7 +973,7 @@ lt_ret_t lt_i_config_read(lt_handle_t *h, const enum CONFIGURATION_OBJECTS_REGS 
     return lt_in__i_config_read(h, obj);
 }
 
-lt_ret_t lt_r_mem_data_write(lt_handle_t *h, const uint16_t udata_slot, uint8_t *data, const uint16_t size)
+lt_ret_t lt_r_mem_data_write(lt_handle_t *h, const uint16_t udata_slot, const uint8_t *data, const uint16_t size)
 {
     if (!h || !data || size < R_MEM_DATA_SIZE_MIN || size > R_MEM_DATA_SIZE_MAX || (udata_slot > R_MEM_DATA_SLOT_MAX)) {
         return LT_PARAM_ERR;
@@ -1273,7 +1273,7 @@ lt_ret_t lt_ecc_eddsa_sig_verify(const uint8_t *msg, const uint16_t msg_len, con
 
 lt_ret_t lt_mcounter_init(lt_handle_t *h, const enum lt_mcounter_index_t mcounter_index, const uint32_t mcounter_value)
 {
-    if (!h || (mcounter_index > MCOUNTER_INDEX_15)) {
+    if (!h || (mcounter_index > MCOUNTER_INDEX_15) || mcounter_value > MCOUNTER_VALUE_MAX) {
         return LT_PARAM_ERR;
     }
     if (h->l3.session != SESSION_ON) {

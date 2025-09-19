@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+- Changed prefixes of all platform HAL files to `libtropic_`.
+- `lt_l2.h`, `lt_l2.c`, `lt_l3.h`, `lt_l3.c`: change prefix to `libtropic_`.
+
+### Added
+- CMake option for setting logging verbosity level: `LT_LOG_LVL`.
+- Compiler and linker flags to delete unused sections.
+- Macro `MCOUNTER_VALUE_MAX` for the maximal allowed value of monotonic counter.
+
+### Fixed
+- `lt_r_mem_data_write()`, `lt_out__r_mem_data_write()`: Mark `data` as `const`.
+- `lt_mcounter_init()`: Allow `mcounter_value` only from range 0-`MCOUNTER_VALUE_MAX`.
+
+### Removed
+
 ## [1.0.0]
 
 ### Changed
