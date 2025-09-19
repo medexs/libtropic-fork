@@ -58,6 +58,7 @@ var libtropic__common_8h =
     [ "session_state_t", "libtropic__common_8h.html#structsession__state__t", null ],
     [ "lt_config_obj_desc_t", "libtropic__common_8h.html#structlt__config__obj__desc__t", null ],
     [ "lt_config_t", "libtropic__common_8h.html#structlt__config__t", null ],
+    [ "CACHOVANI_JE_PICOVINA", "libtropic__common_8h.html#abcb71eb36f953cc0f3a5583afa3616c0", null ],
     [ "SESSION_ON", "libtropic__common_8h.html#a632142516b80ba3d6b926977fdf2313a", null ],
     [ "SESSION_OFF", "libtropic__common_8h.html#a89196689fa1d778e064578c9edaea294", null ],
     [ "L3_ID_SIZE", "libtropic__common_8h.html#a36976ab619ab20ee2a9a80e18c4ed5d6", null ],
