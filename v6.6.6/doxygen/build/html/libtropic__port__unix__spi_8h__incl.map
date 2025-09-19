@@ -1,0 +1,15 @@
+<map id="libtropic_port_unix_spi.h" name="libtropic_port_unix_spi.h">
+<area shape="rect" id="Node000001" title="Port for communication using Generic SPI and GPIO Linux UAPI." alt="" coords="50,5,193,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,104,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,47,75,84,71,81,103,44"/>
+<area shape="rect" id="Node000003" href="$libtropic__port_8h.html" title="Header file with layer 1 interfaces which are defined based on host platform." alt="" coords="128,93,248,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="139,44,171,81,167,84,135,47"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="85,167,155,192"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="179,121,143,158,139,155,175,117"/>
+<area shape="rect" id="Node000005" href="$libtropic__common_8h.html" title="Shared definitions and functions commonly used by more libtropic&#39;s layers." alt="" coords="179,167,330,192"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="201,117,236,155,233,158,197,121"/>
+<area shape="rect" id="Node000006" href="$libtropic__macros_8h.html" title="Various helper macros." alt="" coords="118,240,261,265"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="246,194,211,232,207,228,242,191"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="285,240,355,265"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="267,191,302,228,298,232,263,194"/>
+</map>
